@@ -5,7 +5,7 @@ metadata:
     app: hello-app
   name: hello-deployment
   annotations:
-    link.argocd.argoproj.io/external-link: https://hub.docker.com/repository/docker/zedfe
+    link.argocd.argoproj.io/external-link: https://hub.docker.com/repository/docker/zedfe$
 spec:
   replicas: 1
   selector:
