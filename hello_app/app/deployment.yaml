@@ -16,9 +16,6 @@ spec:
       labels:
         app: hello-app
     spec:
-      imagePullSecrets:
-      - name: regcred
       containers:
-      - name: hello-app
+      - name: hello-deployment
         image: zedfe/hello-app:v1
-        imagePullPolicy: Always
